@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">telemetria-peru-app</string>
+
+    <!-- Generals -->
+    <string name="plate_string">Placa: </string>
+    <string name="current_speed">Velocidad actual: </string>
+    <string name="time_on">Tiempo encendido: </string>
+    <!-- Options Real Time Data -->
+    <string name="title_options_real_time">Opciones en Tiempo Real</string>
+    <string name="gas_status_item">Ver estado del gas en tiempo real</string>
+    <string name="batteries_status_item">Ver estado de las baterías en tiempo real</string>
+    <string name="tires_status_item">Ver estado de los neumáticos</string>
+    <string name="incident_log">Registro de incidentes de impacto</string>
 </resources>

@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
 
+    <color name="green">#4CAF50</color>
 
     <color name="colorSuccess">#4CAF50</color>
     <color name="colorError">#F44336</color>

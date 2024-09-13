@@ -22,7 +22,15 @@
         android:theme="@style/Theme.Telemetriaperuapp"
         tools:targetApi="31">
         <activity
-            android:name=".VehicleRealTimeDataActivity"
+            android:name=".BatteriesRealTimeDataActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".GasRealTimeDataActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".OptionsRealTimeDataActivity"
             android:exported="true"
             android:theme="@style/AppTheme">
             <intent-filter>
@@ -32,15 +40,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".VehicleRealTimeDataActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:theme="@style/AppTheme">
-
-        </activity>
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
