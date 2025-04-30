@@ -22,9 +22,12 @@
         android:theme="@style/Theme.Telemetriaperuapp"
         tools:targetApi="31">
         <activity
+            android:name=".VehicleMenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".BatteriesRealTimeDataActivity"
             android:exported="false"
-            android:theme="@style/AppTheme"/>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".GasRealTimeDataActivity"
             android:exported="false"
